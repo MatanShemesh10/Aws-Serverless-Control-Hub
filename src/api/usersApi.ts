@@ -9,16 +9,22 @@ export interface User {
 }
 
 export async function getUsers(): Promise<User[]> {
-  const response = await axios.get(`${API_BASE_URL}/users`);
+  const response = await axios.get(`${API_BASE_URL}/users`, {
+    headers: { 'Content-Type': 'application/json' },
+  });
   return response.data;
 }
 
 export async function createUser(user: User): Promise<any> {
-  const response = await axios.post(`${API_BASE_URL}/users`, user);
+  const response = await axios.post(`${API_BASE_URL}/users`, user, {
+    headers: { 'Content-Type': 'application/json' },
+  });
   return response.data;
 }
 
 export async function deleteUser(userId: string): Promise<any> {
-  const response = await axios.delete(`${API_BASE_URL}/users/${userId}`);
+  const response = await axios.delete(`${API_BASE_URL}/users/${userId}`, {
+    headers: { 'Content-Type': 'application/json' },
+  });
   return response.data;
 }
