@@ -8,7 +8,7 @@ The goal of this project is to demonstrate an **end-to-end, fully managed cloud 
 
 ---
 ## 📸 Website screenshot
-<img width="796" height="1063" alt="image" src="https://github.com/user-attachments/assets/cea1c69a-08ef-4cb9-996c-aad9d1daf23f" />
+<img width="496" alt="image" src="https://github.com/user-attachments/assets/cea1c69a-08ef-4cb9-996c-aad9d1daf23f" />
 
 ---
 ## 🧠 Technologies Used
