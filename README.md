@@ -7,8 +7,10 @@ AWS Serverless Control Hub is a lightweight full-stack management dashboard that
 The goal of this project is to demonstrate an **end-to-end, fully managed cloud architecture** using **AWS Lambda**, **API Gateway**, and **Amplify Hosting**, providing a scalable and cost-efficient solution with zero infrastructure management.
 
 ---
+## 📸 Website screenshot
+<img width="796" height="1063" alt="image" src="https://github.com/user-attachments/assets/cea1c69a-08ef-4cb9-996c-aad9d1daf23f" />
 
-
+---
 ## 🧠 Technologies Used
 
 | Layer     | Technology                | Description                              |
