@@ -1,12 +1,9 @@
-/* .app-bg {
-  background-color: #f5f7fa;
-} */
+
 
 .app-header {
   border-bottom: 1px solid #dee2e6;
-  padding: 1.5rem 0 1rem 0;
+  padding: 1rem 0 1rem 0;
   background-color: #ffffff;
-  /* border-radius: 1rem; */
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
@@ -36,6 +33,7 @@
 .main-card {
   width: 100%;
   max-width: 850px;
+  max-height: 900px;
   border-radius: 1rem;
   background-color: #fff;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
@@ -103,4 +101,25 @@ main {
   padding: 0.7rem;
   border-top: 1px solid #e2e6ea;
   background-color: #f8f9fa;
+}
+
+.main-card {
+  display: flex;
+  flex-direction: column;
+  height: 80vh; 
+  overflow: hidden;
+}
+
+.users-section {
+  flex: 7; 
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.logs-section {
+  flex: 3; 
+  overflow-y: auto;
+  border-top: 1px solid #e2e6ea;
+  padding-top: 0.5rem;
+  margin-top: 0.5rem;
 }
