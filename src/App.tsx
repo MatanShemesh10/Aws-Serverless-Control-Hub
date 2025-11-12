@@ -65,7 +65,7 @@ export default function App() {
   const loadLogs = async () => {
     try {
       const data = await getLogs();
-      setLogs(data.slice(-5)); // ✅ מציג רק 5 האחרונים
+      setLogs(data.slice(-5));
     } catch (err: any) {
       console.error("Failed to load logs:", err);
     }
